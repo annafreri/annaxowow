@@ -17,7 +17,7 @@ export default function UserModule({ user, onTrashClick, onFireClick, onEditClic
   const { profilePicture, name, role, email, phoneNumber } = user;
 
   const className = cn({
-    'group grid grid-cols-4 py-4 items-center transition-all hover:bg-zinc-900 rounded-2xl px-4 cursor-pointer': true,
+    'group flex flex-col gap-6 lg:grid lg:grid-cols-4 py-4 lg:items-center transition-all hover:bg-zinc-900 rounded-2xl px-4 cursor-pointer': true,
     'opacity-25': isFired
   })
 
@@ -46,7 +46,7 @@ export default function UserModule({ user, onTrashClick, onFireClick, onEditClic
         {phoneNumber ?? '---'}
       </div>
 
-      <div className="flex gap-4 justify-end">
+      <div className="flex gap-4 lg:justify-end">
         <ActionButton
           icon={<Flame className="size-5" />}
           color="red"
