@@ -16,7 +16,7 @@ export default function UserModule({ user, onTrashClick, onFireClick, isFired }:
   const { profilePicture, name, role, email, phoneNumber } = user;
 
   const className = cn({
-    'grid grid-cols-4 py-4 items-center transition-all hover:bg-zinc-900 rounded-2xl px-4 cursor-pointer': true,
+    'group grid grid-cols-4 py-4 items-center transition-all hover:bg-zinc-900 rounded-2xl px-4 cursor-pointer': true,
     'opacity-25': isFired
   })
 
@@ -27,7 +27,7 @@ export default function UserModule({ user, onTrashClick, onFireClick, isFired }:
         <img
           src={`/avatars/${profilePicture}`}
           alt={`${name}'s profile`}
-          className="w-20 h-w-20 rounded-full mr-4"
+          className="w-20 h-w-20 rounded-full mr-4 transition-all group-hover:-rotate-12 "
         />
         <div className='flex flex-col'>
           <p>{name}</p>
