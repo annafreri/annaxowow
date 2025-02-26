@@ -37,7 +37,7 @@ export default function Dashboard() {
 
 
 
-      <div className='bg-zinc-800 rounded-2xl p-6'>
+      <div className='bg-zinc-800 rounded-2xl p-2'>
         {
           users && users.map((user) => (
             <UserModule user={user} key={user.id} />

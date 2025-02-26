@@ -8,13 +8,13 @@ export default function UserModule({ user }: { user: User }) {
   return (
     <div
       key={id}
-      className='grid grid-cols-4 border-b pb-4 border-zinc-700'>
+      className='grid grid-cols-4 py-4 items-center transition-all hover:bg-zinc-900 rounded-2xl px-4 cursor-pointer'>
 
-      <div className='flex'>
+      <div className='flex items-center'>
         <img
           src={`/avatars/${profilePicture}`}
           alt={`${name}'s profile`}
-          className="w-12 h-12 rounded-full mr-4"
+          className="w-20 h-w-20 rounded-full mr-4"
         />
         <div className='flex flex-col '>
           <p>{name}</p>
