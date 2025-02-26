@@ -5,7 +5,8 @@
     "role": "boss",
     "email": "sarah.johnson@owow.com",
     "profilePicture": "sarah_johnson.png",
-    "phoneNumber": "06 12345678"
+    "phoneNumber": "06 12345678",
+    "isFired": false
   },
   {
     "id": "wk002",
@@ -13,7 +14,8 @@
     "role": "developer",
     "email": "michael.chen@owow.com",
     "profilePicture": "michael_chen.png",
-    "phoneNumber": "06 23456789"
+    "phoneNumber": "06 23456789",
+    "isFired": false
   },
   {
     "id": "wk003",
@@ -21,14 +23,16 @@
     "role": "designer",
     "email": "emily.rodriguez@owow.com",
     "profilePicture": "emily_rodriguez.png",
-    "phoneNumber": "06 34567890"
+    "phoneNumber": "06 34567890",
+    "isFired": false
   },
   {
     "id": "wk004",
     "name": "James Wilson",
     "role": "developer",
     "email": "james.wilson@owow.com",
-    "profilePicture": "james_wilson.png"
+    "profilePicture": "james_wilson.png",
+    "isFired": false
   },
   {
     "id": "wk005",
@@ -36,7 +40,8 @@
     "role": "intern",
     "email": "olivia.kim@owow.com",
     "profilePicture": "olivia_kim.png",
-    "phoneNumber": "06 45678901"
+    "phoneNumber": "06 45678901",
+    "isFired": false
   },
   {
     "id": "wk006",
@@ -44,14 +49,16 @@
     "role": "developer",
     "email": "daniel.martinez@owow.com",
     "profilePicture": "daniel_martinez.png",
-    "phoneNumber": "06 56789012"
+    "phoneNumber": "06 56789012",
+    "isFired": false
   },
   {
     "id": "wk007",
     "name": "Tom Patel",
     "role": "designer",
     "email": "tom.patel@owow.com",
-    "profilePicture": "tom_patel.png"
+    "profilePicture": "tom_patel.png",
+    "isFired": false
   },
   {
     "id": "wk008",
@@ -59,7 +66,8 @@
     "role": "intern",
     "email": "ethan.washington@owow.com",
     "profilePicture": "ethan_washington.png",
-    "phoneNumber": "06 67890123"
+    "phoneNumber": "06 67890123",
+    "isFired": false
   },
   {
     "id": "wk009",
@@ -67,14 +75,16 @@
     "role": "developer",
     "email": "cooper.thompson@owow.com",
     "profilePicture": "cooper_thompson.png",
-    "phoneNumber": "06 78901234"
+    "phoneNumber": "06 78901234",
+    "isFired": false
   },
   {
     "id": "wk010",
     "name": "Noah Garcia",
     "role": "designer",
     "email": "noah.garcia@owow.com",
-    "profilePicture": "noah_garcia.png"
+    "profilePicture": "noah_garcia.png",
+    "isFired": false
   },
   {
     "id": "wk011",
@@ -82,7 +92,8 @@
     "role": "intern",
     "email": "isabella.nguyen@owow.com",
     "profilePicture": "isabella_nguyen.png",
-    "phoneNumber": "06 89012345"
+    "phoneNumber": "06 89012345",
+    "isFired": false
   },
   {
     "id": "wk012",
@@ -90,14 +101,16 @@
     "role": "developer",
     "email": "william.taylor@owow.com",
     "profilePicture": "william_taylor.png",
-    "phoneNumber": "06 90123456"
+    "phoneNumber": "06 90123456",
+    "isFired": false
   },
   {
     "id": "wk013",
     "name": "Mia Anderson",
     "role": "designer",
     "email": "mia.anderson@owow.com",
-    "profilePicture": "mia_anderson.png"
+    "profilePicture": "mia_anderson.png",
+    "isFired": false
   },
   {
     "id": "wk014",
@@ -105,7 +118,8 @@
     "role": "developer",
     "email": "alexander.davis@owow.com",
     "profilePicture": "alexander_davis.png",
-    "phoneNumber": "06 01234567"
+    "phoneNumber": "06 01234567",
+    "isFired": false
   },
   {
     "id": "wk015",
@@ -113,14 +127,16 @@
     "role": "intern",
     "email": "charlotte.brown@owow.com",
     "profilePicture": "charlotte_brown.png",
-    "phoneNumber": "06 12345678"
+    "phoneNumber": "06 12345678",
+    "isFired": false
   },
   {
     "id": "wk016",
     "name": "Benjamin Lee",
     "role": "developer",
     "email": "benjamin.lee@owow.com",
-    "profilePicture": "benjamin_lee.png"
+    "profilePicture": "benjamin_lee.png",
+    "isFired": false
   },
   {
     "id": "wk017",
@@ -128,7 +144,8 @@
     "role": "designer",
     "email": "amelia.clark@owow.com",
     "profilePicture": "amelia_clark.png",
-    "phoneNumber": "06 23456789"
+    "phoneNumber": "06 23456789",
+    "isFired": false
   },
   {
     "id": "wk018",
@@ -136,14 +153,16 @@
     "role": "developer",
     "email": "lucas.wright@owow.com",
     "profilePicture": "lucas_wright.png",
-    "phoneNumber": "06 34567890"
+    "phoneNumber": "06 34567890",
+    "isFired": false
   },
   {
     "id": "wk019",
     "name": "Harper Scott",
     "role": "intern",
     "email": "harper.scott@owow.com",
-    "profilePicture": "harper_scott.png"
+    "profilePicture": "harper_scott.png",
+    "isFired": false
   },
   {
     "id": "wk020",
@@ -151,6 +170,7 @@
     "role": "developer",
     "email": "evelyn.green@owow.com",
     "profilePicture": "evelyn_green.png",
-    "phoneNumber": "06 45678901"
+    "phoneNumber": "06 45678901",
+    "isFired": false
   }
 ]
