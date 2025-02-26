@@ -3,10 +3,11 @@ import users from '../../data/users.json'
 import { Link } from 'react-router-dom';
 import UserModule from '../UserModule';
 import { useState } from 'react';
+import { User } from '@/types';
 
 export default function Dashboard() {
 
-  const [userData, setUserData] = useState(users);
+  const [userData, setUserData] = useState(users as User[]);
 
   const onTrashClick = (id: string) => {
     const newData = userData.filter(user => user.id !== id);
