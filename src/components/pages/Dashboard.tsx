@@ -1,4 +1,4 @@
-import { LogOut } from 'lucide-react';
+import { LogOut, UserPlus } from 'lucide-react';
 import users from '../../data/users.json'
 import { Link } from 'react-router-dom';
 import UserModule from '../UserModule';
@@ -30,7 +30,7 @@ export default function Dashboard() {
     <div className='m-8'>
 
       {/* //HEADER */}
-      <section className='mb-6 flex flex-row gap-8'>
+      <section className='mb-6 flex flex-row gap-6'>
 
         <div className='w-full bg-zinc-800 rounded-2xl px-8 py-6 flex flex-col gap-2'>
           <div className="flex gap-3 items-center ">
@@ -48,6 +48,13 @@ export default function Dashboard() {
           </h2>
         </div>
 
+        <Link to="/">
+          <div className='bg-zinc-800 rounded-2xl flex flex-col gap-2 items-center justify-center w-32 h-full hover:bg-zinc-600 transition-all'>
+            <UserPlus />
+          </div>
+        </Link>
+
+        {/* TODO:: implement new page to add users */}
         <Link to="/">
           <div className='bg-zinc-800 rounded-2xl flex flex-col gap-2 items-center justify-center w-32 h-full hover:bg-zinc-600 transition-all'>
             <LogOut className='transition-transform ' />
