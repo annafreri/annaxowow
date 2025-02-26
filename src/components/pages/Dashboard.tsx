@@ -15,7 +15,9 @@ export default function Dashboard() {
   }
 
   const onFireClick = (id: string) => {
-    const newData = userData.filter(user => user.id !== id);
+    const newData = userData.map(user =>
+      user.id === id ? { ...user, isFired: !user.isFired } : user
+    );
     setUserData(newData);
   }
 
@@ -59,6 +61,7 @@ export default function Dashboard() {
               key={user.id}
               onTrashClick={onTrashClick}
               onFireClick={onFireClick}
+              isFired={user.isFired}
             />
           ))
         }

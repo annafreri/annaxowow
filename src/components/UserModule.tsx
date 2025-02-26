@@ -2,20 +2,27 @@ import capitalizeFirstLetter from "@/helpers/capitalizeFirstLetter";
 import { User } from "@/types";
 import { Flame, Trash2, UserRoundPen } from "lucide-react";
 import ActionButton from "./ActionButton";
+import { cn } from "@/lib/utils";
+
 
 interface Props {
   user: User;
   onTrashClick: (id: string) => void;
   onFireClick: (id: string) => void;
+  isFired: boolean
 }
 
-export default function UserModule({ user, onTrashClick, onFireClick }: Props) {
+export default function UserModule({ user, onTrashClick, onFireClick, isFired }: Props) {
   const { profilePicture, name, role, email, phoneNumber } = user;
+
+  const className = cn({
+    'grid grid-cols-4 py-4 items-center transition-all hover:bg-zinc-900 rounded-2xl px-4 cursor-pointer': true,
+    'opacity-25': isFired
+  })
 
   return (
     <div
-      className='grid grid-cols-4 py-4 items-center transition-all hover:bg-zinc-900 rounded-2xl px-4 cursor-pointer'
-    >
+      className={className}>
       <div className='flex items-center'>
         <img
           src={`/avatars/${profilePicture}`}
