@@ -48,19 +48,19 @@ export default function UserModule({ user, onTrashClick, onFireClick, onEditClic
 
       <div className="flex gap-4 justify-end">
         <ActionButton
-          icon={<Flame />}
+          icon={<Flame className="size-5" />}
           color="red"
           user={user}
           onClick={onFireClick}
         />
         <ActionButton
-          icon={<Trash2 />}
+          icon={<Trash2 className="size-5" />}
           color="purple"
           user={user}
           onClick={onTrashClick}
         />
         <ActionButton
-          icon={<UserRoundPen />}
+          icon={<UserRoundPen className="size-5" />}
           color="blue"
           user={user}
           onClick={onEditClick}
