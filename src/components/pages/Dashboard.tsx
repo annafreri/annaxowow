@@ -1,13 +1,49 @@
+import { LogOut } from 'lucide-react';
+import users from '../../data/users.json'
+import { Link } from 'react-router-dom';
+import UserModule from '../UserModule';
 
 export default function Dashboard() {
   return (
-    <div>
-      <h1>Dashboard</h1>
-      <div>
-        <h2>Welcome to your dashboard</h2>
-        <p>Your content goes here</p>
+    <div className='m-8'>
+
+
+      {/* //HEADER */}
+      <section className='mb-6 flex flex-row gap-8'>
+
+        <div className='w-full bg-zinc-800 rounded-2xl px-8 py-6 flex flex-col gap-2'>
+          <div className="flex gap-3 items-center ">
+            <h1 className="text-4xl font-bold text-purple-400">
+              Wizkid Manager
+              <sup className="text-2xl pl-1">&#174;</sup>
+            </h1>
+            <p className="bg-purple-400 size-fit rounded-full px-2 text-zinc-950 text-sm">
+              2000
+            </p>
+          </div>
+
+          <h2 className='text-zinc-400'>
+            Controll the WizKids
+          </h2>
+        </div>
+
+        <Link to="/">
+          <div className='bg-zinc-800 rounded-2xl flex flex-col gap-2 items-center justify-center w-32 h-full hover:bg-zinc-600 transition-all'>
+            <LogOut className='transition-transform ' />
+          </div>
+        </Link>
+
+      </section>
+
+
+
+      <div className='bg-zinc-800 rounded-2xl p-6'>
+        {
+          users && users.map((user) => (
+            <UserModule user={user} key={user.id} />
+          ))
+        }
       </div>
     </div>
   );
 };
-
