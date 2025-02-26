@@ -8,10 +8,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" >
-          <Route index element={<AuthPage />} />
+        <Route path="/" element={<AuthPage />} >
           <Route path="/dashboard" element={<Dashboard />} />
-
+          {/* TODO:: Create 404 */}
           {/* <Route path="*" element={<NoPage />} /> */}
         </Route>
       </Routes>
