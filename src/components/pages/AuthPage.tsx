@@ -42,8 +42,8 @@ export default function AuthPage() {
             >
               <Button
                 type="submit"
-                variant="secondary"
-                size="default"
+                variant="default"
+                size="lg"
                 className="w-full"
               >
                 Login
