@@ -1,6 +1,7 @@
 import { Input } from "../ui/input"
 import { Button } from "../ui/button";
 import { Link } from "react-router-dom";
+import AnimatedBackground from "../Animatedbackground";
 
 
 export default function AuthPage() {
@@ -59,6 +60,8 @@ export default function AuthPage() {
               Forgot Password
             </Button>
           </div>
+
+          <AnimatedBackground />
 
         </div>
       </div>
