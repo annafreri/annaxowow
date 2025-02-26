@@ -57,8 +57,6 @@ export default function Dashboard() {
             <UserModule
               user={user}
               key={user.id}
-              userData={userData}
-              setUserData={setUserData}
               onTrashClick={onTrashClick}
               onFireClick={onFireClick}
             />
