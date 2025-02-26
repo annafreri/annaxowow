@@ -4,7 +4,7 @@ import { User } from "@/types";
 
 interface Props {
   icon: ReactNode;
-  color?: "red" | "blue" | "purple" | "gray";
+  color?: "red" | "blue" | "purple" | "gray" | "green";
   user: User;
   userData?: User[];
   setUserData?: React.Dispatch<React.SetStateAction<User[]>>;
@@ -24,7 +24,8 @@ export default function ActionButton({
       "hover:bg-red-400": color === "red",
       "hover:bg-blue-400": color === "blue",
       "hover:bg-purple-400": color === "purple",
-      "hover:bg-zinc-600": color === "gray"
+      "hover:bg-zinc-600": color === "gray",
+      "hover:bg-green-400": color === "green"
     }
   );
 

@@ -1,6 +1,6 @@
 import capitalizeFirstLetter from "@/helpers/capitalizeFirstLetter";
 import { User } from "@/types";
-import { Flame, Mail, Phone, Trash2, UserRoundPen } from "lucide-react";
+import { FireExtinguisher, Flame, Mail, Phone, Trash2, UserRoundPen } from "lucide-react";
 import ActionButton from "./ActionButton";
 import { cn } from "@/lib/utils";
 
@@ -48,8 +48,8 @@ export default function UserModule({ user, onTrashClick, onFireClick, onEditClic
 
       <div className="flex gap-4 lg:justify-end">
         <ActionButton
-          icon={<Flame className="size-5" />}
-          color="red"
+          icon={isFired ? <FireExtinguisher /> : <Flame className="size-5" />}
+          color={isFired ? "green" : "red"}
           user={user}
           onClick={onFireClick}
         />
