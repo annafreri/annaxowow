@@ -21,6 +21,11 @@ export default function Dashboard() {
     setUserData(newData);
   }
 
+  const onEditClick = (id: string) => {
+    // TODO:: implement editing
+    console.log('edit' + id)
+  }
+
   return (
     <div className='m-8'>
 
@@ -61,6 +66,7 @@ export default function Dashboard() {
               key={user.id}
               onTrashClick={onTrashClick}
               onFireClick={onFireClick}
+              onEditClick={onEditClick}
               isFired={user.isFired}
             />
           ))

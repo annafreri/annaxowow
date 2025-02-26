@@ -9,10 +9,11 @@ interface Props {
   user: User;
   onTrashClick: (id: string) => void;
   onFireClick: (id: string) => void;
+  onEditClick: (id: string) => void;
   isFired: boolean
 }
 
-export default function UserModule({ user, onTrashClick, onFireClick, isFired }: Props) {
+export default function UserModule({ user, onTrashClick, onFireClick, onEditClick, isFired }: Props) {
   const { profilePicture, name, role, email, phoneNumber } = user;
 
   const className = cn({
@@ -56,7 +57,7 @@ export default function UserModule({ user, onTrashClick, onFireClick, isFired }:
           icon={<UserRoundPen />}
           color="blue"
           user={user}
-          onClick={() => {/* Edit functionality */ }}
+          onClick={onEditClick}
         />
       </div>
     </div>
