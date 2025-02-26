@@ -1,6 +1,6 @@
 import capitalizeFirstLetter from "@/helpers/capitalizeFirstLetter";
 import { User } from "@/types";
-import { Flame, Trash2, UserRoundPen } from "lucide-react";
+import { Flame, Mail, Phone, Trash2, UserRoundPen } from "lucide-react";
 import ActionButton from "./ActionButton";
 import { cn } from "@/lib/utils";
 
@@ -36,9 +36,15 @@ export default function UserModule({ user, onTrashClick, onFireClick, onEditClic
         </div>
       </div>
 
-      <p>{email}</p>
+      <div className="flex gap-3 items-center">
+        <Mail className="size-5 text-zinc-500" />
+        {email}
+      </div>
 
-      <p>{phoneNumber ?? '---'}</p>
+      <div className="flex gap-3 items-center">
+        <Phone className="size-5 text-zinc-500" />
+        {phoneNumber ?? '---'}
+      </div>
 
       <div className="flex gap-4 justify-end">
         <ActionButton
