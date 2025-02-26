@@ -1,0 +1,156 @@
+[
+  {
+    "id": "wk001",
+    "name": "Sarah Johnson",
+    "role": "boss",
+    "email": "sarah.johnson@owow.com",
+    "profilePicture": "sarah_johnson.png",
+    "phoneNumber": "06 12345678"
+  },
+  {
+    "id": "wk002",
+    "name": "Michael Chen",
+    "role": "developer",
+    "email": "michael.chen@owow.com",
+    "profilePicture": "michael_chen.png",
+    "phoneNumber": "06 23456789"
+  },
+  {
+    "id": "wk003",
+    "name": "Emily Rodriguez",
+    "role": "designer",
+    "email": "emily.rodriguez@owow.com",
+    "profilePicture": "emily_rodriguez.png",
+    "phoneNumber": "06 34567890"
+  },
+  {
+    "id": "wk004",
+    "name": "James Wilson",
+    "role": "developer",
+    "email": "james.wilson@owow.com",
+    "profilePicture": "james_wilson.png"
+  },
+  {
+    "id": "wk005",
+    "name": "Olivia Kim",
+    "role": "intern",
+    "email": "olivia.kim@owow.com",
+    "profilePicture": "olivia_kim.png",
+    "phoneNumber": "06 45678901"
+  },
+  {
+    "id": "wk006",
+    "name": "Daniel Martinez",
+    "role": "developer",
+    "email": "daniel.martinez@owow.com",
+    "profilePicture": "daniel_martinez.png",
+    "phoneNumber": "06 56789012"
+  },
+  {
+    "id": "wk007",
+    "name": "Tom Patel",
+    "role": "designer",
+    "email": "tom.patel@owow.com",
+    "profilePicture": "tom_patel.png"
+  },
+  {
+    "id": "wk008",
+    "name": "Ethan Washington",
+    "role": "intern",
+    "email": "ethan.washington@owow.com",
+    "profilePicture": "ethan_washington.png",
+    "phoneNumber": "06 67890123"
+  },
+  {
+    "id": "wk009",
+    "name": "Cooper Thompson",
+    "role": "developer",
+    "email": "cooper.thompson@owow.com",
+    "profilePicture": "cooper_thompson.png",
+    "phoneNumber": "06 78901234"
+  },
+  {
+    "id": "wk010",
+    "name": "Noah Garcia",
+    "role": "designer",
+    "email": "noah.garcia@owow.com",
+    "profilePicture": "noah_garcia.png"
+  },
+  {
+    "id": "wk011",
+    "name": "Isabella Nguyen",
+    "role": "intern",
+    "email": "isabella.nguyen@owow.com",
+    "profilePicture": "isabella_nguyen.png",
+    "phoneNumber": "06 89012345"
+  },
+  {
+    "id": "wk012",
+    "name": "William Taylor",
+    "role": "developer",
+    "email": "william.taylor@owow.com",
+    "profilePicture": "william_taylor.png",
+    "phoneNumber": "06 90123456"
+  },
+  {
+    "id": "wk013",
+    "name": "Mia Anderson",
+    "role": "designer",
+    "email": "mia.anderson@owow.com",
+    "profilePicture": "mia_anderson.png"
+  },
+  {
+    "id": "wk014",
+    "name": "Alexander Davis",
+    "role": "developer",
+    "email": "alexander.davis@owow.com",
+    "profilePicture": "alexander_davis.png",
+    "phoneNumber": "06 01234567"
+  },
+  {
+    "id": "wk015",
+    "name": "Charlotte Brown",
+    "role": "intern",
+    "email": "charlotte.brown@owow.com",
+    "profilePicture": "charlotte_brown.png",
+    "phoneNumber": "06 12345678"
+  },
+  {
+    "id": "wk016",
+    "name": "Benjamin Lee",
+    "role": "developer",
+    "email": "benjamin.lee@owow.com",
+    "profilePicture": "benjamin_lee.png"
+  },
+  {
+    "id": "wk017",
+    "name": "Amelia Clark",
+    "role": "designer",
+    "email": "amelia.clark@owow.com",
+    "profilePicture": "amelia_clark.png",
+    "phoneNumber": "06 23456789"
+  },
+  {
+    "id": "wk018",
+    "name": "Lucas Wright",
+    "role": "developer",
+    "email": "lucas.wright@owow.com",
+    "profilePicture": "lucas_wright.png",
+    "phoneNumber": "06 34567890"
+  },
+  {
+    "id": "wk019",
+    "name": "Harper Scott",
+    "role": "intern",
+    "email": "harper.scott@owow.com",
+    "profilePicture": "harper_scott.png"
+  },
+  {
+    "id": "wk020",
+    "name": "Evelyn Green",
+    "role": "developer",
+    "email": "evelyn.green@owow.com",
+    "profilePicture": "evelyn_green.png",
+    "phoneNumber": "06 45678901"
+  }
+]
