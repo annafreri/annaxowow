@@ -2,11 +2,24 @@ import { LogOut } from 'lucide-react';
 import users from '../../data/users.json'
 import { Link } from 'react-router-dom';
 import UserModule from '../UserModule';
+import { useState } from 'react';
 
 export default function Dashboard() {
+
+  const [userData, setUserData] = useState(users);
+
+  const onTrashClick = (id: string) => {
+    const newData = userData.filter(user => user.id !== id);
+    setUserData(newData);
+  }
+
+  const onFireClick = (id: string) => {
+    const newData = userData.filter(user => user.id !== id);
+    setUserData(newData);
+  }
+
   return (
     <div className='m-8'>
-
 
       {/* //HEADER */}
       <section className='mb-6 flex flex-row gap-8'>
@@ -35,15 +48,24 @@ export default function Dashboard() {
 
       </section>
 
-
-
+      {/* USERS */}
       <div className='bg-zinc-800 rounded-2xl p-2'>
+
         {
-          users && users.map((user) => (
-            <UserModule user={user} key={user.id} />
+          userData && userData.map((user) => (
+            <UserModule
+              user={user}
+              key={user.id}
+              userData={userData}
+              setUserData={setUserData}
+              onTrashClick={onTrashClick}
+              onFireClick={onFireClick}
+            />
           ))
         }
+
       </div>
+
     </div>
   );
 };
